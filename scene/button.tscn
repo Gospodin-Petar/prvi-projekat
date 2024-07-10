@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqu66k7trqutl"]
+
+[ext_resource type="Texture2D" uid="uid://cobdxnt0xs6fk" path="res://aseti/sprites/GUI.png" id="1_yf5ca"]
+
+[node name="TextureButton" type="TextureButton"]
+anchors_preset = -1
+anchor_left = -0.006
+anchor_top = -0.011
+anchor_right = 0.006
+anchor_bottom = 0.011
+offset_left = -0.0879998
+offset_top = 0.128001
+offset_right = 0.0879998
+offset_bottom = -0.128001
+size_flags_horizontal = 6
+size_flags_vertical = 4
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(8, 8)
+scale = Vector2(1.14286, 1.14286)
+texture = ExtResource("1_yf5ca")
+region_enabled = true
+region_rect = Rect2(1, 81, 14, 14)
