@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://86x51uy8n0l2"
+path="res://.godot/imported/y2mate.com - Bumbaclot Sound Effect.mp3-f853be7e108c783753f72d834b52e5f3.mp3str"
+
+[deps]
+
+source_file="res://scene/y2mate.com - Bumbaclot Sound Effect.mp3"
+dest_files=["res://.godot/imported/y2mate.com - Bumbaclot Sound Effect.mp3-f853be7e108c783753f72d834b52e5f3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

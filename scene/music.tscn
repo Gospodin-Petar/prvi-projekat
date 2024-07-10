@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0g2c38mvey2v"]
+
+[ext_resource type="AudioStream" uid="uid://bm52gj74t4wjx" path="res://aseti/music/y2mate.com - MIHAJLO MADIĆ  MENI PIŠE PRIVATE RANK 2.mp3" id="1_4itsl"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_4itsl")
+autoplay = true
+bus = &"Music"

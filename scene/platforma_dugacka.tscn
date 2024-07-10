@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnx0vbv201qmb"]
+
+[ext_resource type="Texture2D" uid="uid://dt2bg5fgowi41" path="res://aseti/sprites/platforms.png" id="1_sq7kd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w5vub"]
+size = Vector2(32, 8)
+
+[node name="platformadugacka" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_sq7kd")
+region_enabled = true
+region_rect = Rect2(16, 32, 32, 9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_w5vub")
+one_way_collision = true
