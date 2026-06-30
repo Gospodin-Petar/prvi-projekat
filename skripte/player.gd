@@ -36,10 +36,7 @@ func _physics_process(delta):
 		animated_sprite_2d.play("jump")
 	
 	
+	velocity.x = direction * SPEED
 	
-	if direction:
-		velocity.x = direction * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
